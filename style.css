@@ -1,0 +1,61 @@
+body{
+    margin-left: 0px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.leftPanel{
+    width: 300px;
+    border: solid turquoise;
+}
+
+.locationBox{
+    border: solid black;
+    height: 75px;
+}
+
+.profilePic{
+    border: solid black;
+    height: 300px;
+}
+
+.educationBox{
+    border: solid black;
+    height: 500px;
+}
+
+.hobbiesBox{
+    border: solid black;
+    height: 100px;
+}
+
+.rightPanel{
+    width: 450px;
+    border: solid violet;
+}
+
+.contactBox{
+    height: 75px;
+    border: solid black;
+    display: flex;
+}
+
+.contactItem{
+    width: 33%;
+    border: solid gray;
+}
+
+.personalBox{
+    height: 300px;
+    border: solid black;
+}
+
+.experienceBox{
+    height: 550px;
+    border: solid black;
+}
+
+.expertiseBox{
+    height: 50px;
+    border: solid black;
+}
