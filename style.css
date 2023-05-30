@@ -6,37 +6,38 @@ body{
 
 .leftPanel{
     width: 300px;
-    border: solid turquoise;
+    background-color: turquoise;
+    margin-left: 25px;
 }
 
 .locationBox{
-    border: solid black;
+    
     height: 75px;
 }
 
 .profilePic{
-    border: solid black;
+    background-color: black;
     height: 300px;
+    position: relative;
+    right: 25px;
+    width: 325px;
 }
 
 .educationBox{
-    border: solid black;
     height: 500px;
 }
 
 .hobbiesBox{
-    border: solid black;
+    background-color:  gray;
     height: 100px;
 }
 
 .rightPanel{
     width: 450px;
-    border: solid violet;
 }
 
 .contactBox{
     height: 75px;
-    border: solid black;
     display: flex;
 }
 
@@ -47,15 +48,15 @@ body{
 
 .personalBox{
     height: 300px;
-    border: solid black;
+    background: black;
 }
 
 .experienceBox{
     height: 550px;
-    border: solid black;
+    background-color: lightgray;
 }
 
 .expertiseBox{
     height: 50px;
-    border: solid black;
+    background-color: darkgray;
 }
