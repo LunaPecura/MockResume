@@ -1,35 +1,62 @@
 body{
     margin-left: 0px;
     margin-top: 25px;
+    margin-bottom: 25px;
     display: flex;
+    font-family:'Franklin Gothic Medium';
+    font-size: 15px;
 }
 
 .leftPanel{
-    width: 300px;
-    background-color: turquoise;
+    width: 250px;
     margin-left: 25px;
 }
 
 .locationBox{
-    
-    height: 75px;
+    height: 55px;
+    background-color: turquoise;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.picBox{
+    display: flex;
+    height: 300px;
+    width: 275px;
+    position: relative;
+    right: 25px;
+}
+
+.picBoxMargin{
+    height: 300px;
+    width: 25px;
+    background-color: black;
 }
 
 .profilePic{
-    background-color: black;
     height: 300px;
-    position: relative;
-    right: 25px;
-    width: 325px;
+    width: 250px;
+    background-color: turquoise;
+}
+
+img{
+    height: 300px;
+    width: 250px;
+    opacity: 0.5;
 }
 
 .educationBox{
-    height: 500px;
+    height: 280px;
+    background-color: turquoise;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 
-.hobbiesBox{
-    background-color:  gray;
-    height: 100px;
+.expertiseBox{
+    background-color: turquoise;
+    height: 250px;
+    padding-top: 20px;
+    padding-left: 30px;
 }
 
 .rightPanel{
@@ -43,7 +70,8 @@ body{
 
 .contactItem{
     width: 33%;
-    border: solid gray;
+    padding-top: 20px;
+    padding-left: 30px;
 }
 
 .personalBox{
@@ -52,11 +80,12 @@ body{
 }
 
 .experienceBox{
-    height: 550px;
-    background-color: lightgray;
+    height: 380px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 
-.expertiseBox{
-    height: 50px;
-    background-color: darkgray;
+.hobbiesBox{
+    height: 150px;
+    padding-left: 30px;
 }
